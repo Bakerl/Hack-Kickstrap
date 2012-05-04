@@ -7,7 +7,7 @@ Kickstrap（内置bootstrap）是超屌的快速构建HTML5应用的前端框架
 
 **最近更新**
 
-+ 2012.05.04 集成bootstrap 2.0.3, bootswatch 2.0.3(虽然我自己把最新的bootstrap 2.0.3版本修订进来，但这次kickstrap还比较敏捷地集成了进来。不过下次别的插件再更新，我看还是得我们自个儿来更新。)
++ 2012.05.04 集成bootstrap 2.0.3, bootswatch 2.0.3(kickstrap插件很多，有时我们需要新插件的特性，kickstrap更新没那么及时，我们得自个儿来更新。)
 
 Hack步骤
 ===========
