@@ -5,19 +5,15 @@ Kickstrap（内置bootstrap）是超屌的快速构建HTML5应用的前端框架
 
 然而由于项目元素较多，文档不够详尽，目前使用起来有些不便之处，这里根据我的实际运营的项目，对它进行一些修订，这里专门刊出与主项目不同之处，所以在使用时，先下载Kickstrap，再根据我这里的修订步骤对Kickstrap进行Hack。
 
+**最近更新**
 
-最近更新
-==========
-
-**2012.05.04**
-
-+ 虽然我自己把最新的bootstrap 2.0.3版本修订进来，但这次kickstrap还比较敏捷地集成了进来。不过下次别的插件再更新，我看还是得我们自个儿来更新。
++ 2012.05.04 虽然我自己把最新的bootstrap 2.0.3版本修订进来，但这次kickstrap还比较敏捷地集成了进来。不过下次别的插件再更新，我看还是得我们自个儿来更新。
 
 Hack步骤
 ===========
 
 项目结构调整
--------
+-------------
 
 + 我把所有的资源文件夹(css,extras,img,js,less)全部都放到kickstrap这一个文件夹下去了，这样你自己站点的资源文件就可以不必跟kickstrap的混合在一起。build文件夹暂时还没去管。
 
@@ -35,11 +31,8 @@ Hack步骤
 
 
 光荣榜
--------
-**Mark Otto** (Bootstrap)
-+ http://twitter.com/mdo
-**Jacob Thornton** (Bootstrap)
-+ http://twitter.com/fat
-**Adam Kochanowicz** (Kickstrap)
-+ http://twitter.com/yourwebsitesUX
+========
++ **Mark Otto** (Bootstrap) http://twitter.com/mdo
++ **Jacob Thornton** (Bootstrap) http://twitter.com/fat
++ **Adam Kochanowicz** (Kickstrap) http://twitter.com/yourwebsitesUX
 
