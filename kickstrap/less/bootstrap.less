@@ -61,5 +61,9 @@
 // Utility classes
 @import "utilities.less"; // Has to be last to override when necessary
 
-//Overrides
+//install bootswatch theme (don't use theme of kickstrap)
+//1.import bootswatch，2.directly change variable.less
+@import "bootswatch.less";
+
+//kickstrap's Override
 @import "../extras/settings/overrides.less";
