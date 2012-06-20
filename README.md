@@ -6,6 +6,7 @@ Kickstrap（内置bootstrap）是超屌的快速构建HTML5应用的前端框架
 然而由于项目元素较多，文档不够详尽，目前使用起来有些不便之处，这里根据我的实际运营的项目，对它进行一些修订，这里专门刊出与主项目不同之处，所以在使用时，先下载Kickstrap，再根据我这里的修订步骤对Kickstrap进行Hack。
 
 **最近更新**
++ 2012.06.20 更新至bootstrap/bootswatch 2.0.4; font-awesome 2.0重大版本更新
 
 + 2012.05.04 集成bootstrap 2.0.3, bootswatch 2.0.3(kickstrap插件很多，有时我们需要新插件的特性，kickstrap更新没那么及时，我们得自个儿来更新。)
 
@@ -30,6 +31,11 @@ Hack步骤
 5. kickstrap的"../extras/settings/overrides.less"文件末尾的"import theme"注释掉，因为我们已经自制主题，也可能有一些bug导致编译不过，比如1.0RC版本里几处#gridSystem > .generate(12, 70px, 30px);之类的语法都有错误，如果现在还没更正，可以先注释掉，那几个代码块暂时用不到。
 6. 安装nodejs，npm install -g lessc, 然后编译lessc bootstrap.less > bootstrap.css，然后把生成的css放到/kickstrap/css/下就搞定了！
 
+*更新font-awesome
+    1. 直接更新font-awesome的四个font文件
+    2. 更新less，注意font路径
+    3. IE7: 不需要在kickstrap的override里引入ie7.less，因为这个fix是一个单独的css fix，只需要把css复制过来， 
+    <!--[if IE 7]><link rel="stylesheet" href="assets/css/font-awesome-ie7.css"><![endif]-->
 
 光荣榜
 ========
