@@ -1,7 +1,9 @@
 // Variables.less
 // Variables to customize the look and feel of Bootstrap
 // Swatch: United
-// Version: 2.0.3
+// Version: 2.0.4
+// 2012.06.20: Matt updated according to change of 2.0.4
+// 2012.04.25: Matt updated according to change of 2.0.2/2.0.3
 // -----------------------------------------------------
 
 // GLOBAL VALUES
@@ -45,8 +47,8 @@
 
 // Typography
 // -------------------------
-@sansFontFamily:        "Helvetica Neue", Helvetica, Tahoma, sans-serif;
-@serifFontFamily:       Georgia, "Times New Roman", Times, serif;
+@sansFontFamily:        "Trebuchet MS", Arial, Verdana, sans-serif;
+@serifFontFamily:       Georgia, "Times New Roman", serif;
 @monoFontFamily:        Menlo, Monaco, Consolas, "Courier New", monospace;
 
 @baseFontSize:          13px;
@@ -107,7 +109,8 @@
 @dropdownLinkColor:             @linkColor;
 @dropdownLinkColorHover:        @white;
 @dropdownLinkBackgroundHover:   @linkColor;
-
+@dropdownDividerTop:            #e5e5e5;
+@dropdownDividerBottom:         @white;
 
 
 
@@ -158,7 +161,7 @@
 @navbarSearchBackground:          lighten(@navbarBackground, 25%);
 @navbarSearchBackgroundFocus:     @white;
 @navbarSearchBorder:              darken(@navbarSearchBackground, 30%);
-@navbarSearchPlaceholderColor:    #ccc;
+@navbarSearchPlaceholderColor:    @white;
 @navbarBrandColor:                @navbarLinkColor;
 
 
@@ -193,8 +196,9 @@
 // --------------------------------------------------
 
 // Default 940px grid
+// Matt changed:to 14 columns=14*60+13*20=1100px;
 // -------------------------
-@gridColumns:             12;
+@gridColumns:             14;
 @gridColumnWidth:         60px;
 @gridGutterWidth:         20px;
 @gridRowWidth:            (@gridColumns * @gridColumnWidth) + (@gridGutterWidth * (@gridColumns - 1));
