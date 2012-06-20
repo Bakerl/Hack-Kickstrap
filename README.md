@@ -21,7 +21,7 @@ Hack步骤
 主题更换
 ----------
 
-*主要操作是在Less文件夹下面
++主要操作是在Less文件夹下面
 
 1. 自己从bootstrap下载最新的bootstrap.less（kickstrap对其做了更改，所以我们用原始版）
 2. 自己从http://bootswatch.com/ 下载主题，两个文件，一个bootswatch.less,一个是variable.less 
@@ -31,11 +31,11 @@ Hack步骤
 5. kickstrap的"../extras/settings/overrides.less"文件末尾的"import theme"注释掉，因为我们已经自制主题，也可能有一些bug导致编译不过，比如1.0RC版本里几处#gridSystem > .generate(12, 70px, 30px);之类的语法都有错误，如果现在还没更正，可以先注释掉，那几个代码块暂时用不到。
 6. 安装nodejs，npm install -g lessc, 然后编译lessc bootstrap.less > bootstrap.css，然后把生成的css放到/kickstrap/css/下就搞定了！
 
-*更新font-awesome
-    1. 直接更新font-awesome的四个font文件
-    2. 更新less，注意font路径
-    3. IE7: 不需要在kickstrap的override里引入ie7.less，因为这个fix是一个单独的css fix，只需要把css复制过来， 
-    <!--[if IE 7]><link rel="stylesheet" href="assets/css/font-awesome-ie7.css"><![endif]-->
++更新font-awesome
+1. 直接更新font-awesome的四个font文件
+2. 更新less，注意font路径
+3. IE7: 不需要在kickstrap的override里引入ie7.less，因为这个fix是一个单独的css fix，只需要把css复制过来，
+<!--[if IE 7]><link rel="stylesheet" href="assets/css/font-awesome-ie7.css"><![endif]-->
 
 光荣榜
 ========
