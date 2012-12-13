@@ -6,6 +6,8 @@ Kickstrap（内置bootstrap）是超屌的快速构建HTML5应用的前端框架
 然而由于项目元素较多，文档不够详尽，目前使用起来有些不便之处，这里根据我的实际运营的项目，对它进行一些修订，这里专门刊出与主项目不同之处，所以在使用时，先下载Kickstrap，再根据我这里的修订步骤对Kickstrap进行Hack。
 
 **最近更新**
++ 2012.12.14 bootstrap和kickstrap都加快了开发脚步, 现在再看一眼时bootstrap已经2.2.2,kickstrap也发布了1.2Beta, 包含2.2.1的bootstrap, 可用性大大提高, 以至于我这个Kickstrap0.9改良版已经没有永无之地了, 所以请大家还是关注kickstrap吧, 1.0以后已经开始逆天了
+
 + 2012.06.20 更新至bootstrap/bootswatch 2.0.4; font-awesome 2.0重大版本更新
 
 + 2012.05.04 集成bootstrap 2.0.3, bootswatch 2.0.3(kickstrap插件很多，有时我们需要新插件的特性，kickstrap更新没那么及时，我们得自个儿来更新。)
